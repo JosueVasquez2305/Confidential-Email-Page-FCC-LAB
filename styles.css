@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background-color: #0b0c10; /* Fondo oscuro para la pantalla completa */
+  background-color: #0b0c10; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ body {
   margin-top: 50px;
   width: 500px;
   border: 2px solid #00ff66;
-  box-sizing: border-box; /* Cumple el Test 6 de ancho exacto */
+  box-sizing: border-box; 
   position: relative;
   font-family: 'Courier New', monospace;
   background-color: #1a1c1e;
@@ -29,7 +29,7 @@ body {
   font-weight: bold;
   position: absolute;
   background-color: rgba(26, 28, 30, 0.9);
-  color: #ef4444; /* Asegura el color rojo de los sellos */
+  color: #ef4444;
 }
 
 #confidential {
@@ -45,7 +45,7 @@ body {
 }
 
 .blurred {
-  filter: blur(3px); /* Cumple el Test 24 */
+  filter: blur(3px);
   background-color: #000000;
   color: #000000;
   padding: 0 5px;
@@ -58,7 +58,7 @@ h1 {
   text-align: center;
   font-family: 'Courier New', Monaco, monospace;
   background-color: #2e3d30;
-  color: #e2e8f0; /* Texto claro para alto contraste */
+  color: #e2e8f0;
   display: block;
   padding: 10px 0;
   font-size: 24px;
