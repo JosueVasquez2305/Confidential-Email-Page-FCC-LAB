@@ -1,0 +1,69 @@
+body {
+  margin: 0 auto;
+  background-color: #0b0c10; /* Fondo oscuro para la pantalla completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid #00ff66;
+  box-sizing: border-box; /* Cumple el Test 6 de ancho exacto */
+  position: relative;
+  font-family: 'Courier New', monospace;
+  background-color: #1a1c1e;
+  color: #c8ffd4;
+  box-shadow: 0 0 20px rgba(0, 255, 102, 0.15);
+}
+
+#confidential, #top-secret {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-left: 25px;
+  border: 4px double #ef4444;
+  font-family: 'Impact', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  background-color: rgba(26, 28, 30, 0.9);
+  color: #ef4444; /* Asegura el color rojo de los sellos */
+}
+
+#confidential {
+  transform: rotate(-8deg);
+  top: 45px;
+  right: 55px;
+}
+
+#top-secret {
+  transform: rotate(12deg);
+  bottom: 40px;
+  left: 10px;
+}
+
+.blurred {
+  filter: blur(3px); /* Cumple el Test 24 */
+  background-color: #000000;
+  color: #000000;
+  padding: 0 5px;
+  display: inline-block;
+  border-radius: 2px;
+  user-select: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Monaco, monospace;
+  background-color: #2e3d30;
+  color: #e2e8f0; /* Texto claro para alto contraste */
+  display: block;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.5);
+}
